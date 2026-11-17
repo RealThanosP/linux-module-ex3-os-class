@@ -5,12 +5,12 @@ MODULE_AUTHOR("Me");
 MODULE_LICENSE("GPL");
 static int my_init(void)
 {
-    printk("Hi\n");
+    printk("Hello World I live in your distro now :)\n");
     return 0;
 }
 static void my_exit(void)
 {
-    printk("Bye\n");
+    printk("Sad to see you leave me :(\n");
 }
 module_init(my_init);
 module_exit(my_exit);
